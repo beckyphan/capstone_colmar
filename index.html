@@ -3,37 +3,151 @@
   <head>
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:300,400,700" rel="stylesheet">
     <title>Colmar Academy</title>
   </head>
 
   <body>
-    <div class="company-header">
-      <nav>
-        <div class="logo"><img src="./resources/images/ic-logo.svg" alt="logo">
-          <span class="colmar mobhide">Colmar</span><span class="academy mobhide">Academy</span>
+
+    <nav>
+      <ul>
+        <li class="logo"><img src="./resources/images/ic-logo.svg" alt="logo"><span class="colmar mob-hide">Colmar</span><span class="academy mob-hide">Academy</span></li>
+        <li><span class="mob-only"><img src="./resources/images/ic-on-campus.svg" alt="On-Campus"></span><span class="mob-hide">On Campus</span></li>
+        <li><span class="mob-only"><img src="./resources/images/ic-online.svg" alt="On-line"></span><span class="mob-hide">On-line</span></li>
+        <li class="mob-hide"><span class="mob-hide">For Companies</span></li>
+        <li><span class="mob-only"><img src="./resources/images/ic-login.svg" alt="Log-in"></span><span class="mob-hide">Sign-in</span></li>
+      </ul>
+    </nav>
+
+    <div class="learn-something two-column">
+      <div class="column-one">
+        <img src="./resources/images/banner.jpg">
+      </div>
+
+      <div class="column-two">
+        <h1>Learn something new everyday</h1>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        <div class="start-button">
+          <h3 class="white-text">Start here</h3>
         </div>
-        <ul>
-          <li><span class="mob"><img src="./resources/images/ic-on-campus.svg" alt="On-Campus"></span><span class="mobhide">On Campus</span></li>
-          <li><span class="mob"><img src="./resources/images/ic-online.svg" alt="On-line"></span><span class="mobhide">On-line</span></li>
-          <li><span class="mobhide">For Companies</span></li>
-          <li><span class="mob"><img src="./resources/images/ic-login.svg" alt="Log-in"></span><span class="mobhide">Sign-in</span></li>
-        </ul>
-      </nav>
+      </div>
     </div>
 
-    <div class="two-column welcome greybb">
+    <div class="keep-practicing two-column">
+      <div class="column-one mob-hide">
+        <img src="./resources/images/information-main.jpg">
+        <h1>It doesn't hurt to keep practicing</h1>
+        <p>&quotCurabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lefctus, nec consequat neque. Sed non acumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.&quot</p>
+        <p class="bold">Emanuel, Sr Strategist at Hiring.com</p>
+      </div>
+
+      <div class="column-two">
+        <div class="event-container">
+          <img class="mob-hide" src="./resources/images/information-orientation.jpg">
+          <img class="mob-only" src="./resources/images/information-orientation-mobile.jpg">
+          <div class="event-details">
+            <h2>Orientation date</h2>
+            <h3>Tue 10/11 & Wed 10/12: 8am-3pm</h3>
+            <h3 class="read-more">Read More</h3>
+          </div>
+        </div>
+        <div class="event-container">
+          <img class="mob-hide" src="./resources/images/information-campus.jpg">
+          <img class="mob-only" src="./resources/images/information-campus-mobile.jpg">
+          <div class="event-details">
+            <h2>Our campus</h2>
+            <h3>Find out which campus is close by you</h3>
+            <h3 class="read-more">Read More</h3>
+          </div>
+        </div>
+        <div class="event-container">
+          <img class="mob-hide" src="./resources/images/information-guest-lecture.jpg">
+          <img class="mob-only" src="./resources/images/information-guest-lecture-mobile.jpg">
+          <div class="event-details">
+            <h2>Our guest lecture</h2>
+            <h3>Join a keynote with Oliver Sack about music in medical treatment</h3>
+            <h3 class="read-more">Read More</h3>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="two-column content">
+    <div class="start-learning">
+      <h1>Start learning</h1>
+      <div class="grid">
+        <div class="course-container">
+          <img class="mob-hide" src="./resources/images/course-software.jpg">
+          <h2>Software Engineering</h2>
+          <h3 class="allcaps mob-hide">Courses</h3>
+          <p class="tags mob-hide">Web Development, Mobile Development, iOT, APIs</p>
+        </div>
+        <div class="course-container">
+          <img class="mob-hide" src="./resources/images/course-computer-art.jpg">
+          <h2>Computer art</h2>
+          <h3 class="allcaps mob-hide">Courses</h3>
+          <p class="tags mob-hide">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animations</p>
+        </div>
+        <div class="course-container">
+          <img class="mob-hide" src="./resources/images/course-design.jpg">
+          <h2>Design</h2>
+          <h3 class="allcaps mob-hide">Courses</h3>
+          <p class="tags mob-hide">User Experience Design, User Research, Visual Design</p>
+        </div>
+        <div class="course-container">
+          <img class="mob-hide" src="./resources/images/course-data.jpg">
+          <h2>Data</h2>
+          <h3 class="allcaps mob-hide">Courses</h3>
+          <p class="tags mob-hide">Data Science, Big Data, SQL, Data Visualization</p>
+        </div>
+        <div class="course-container">
+          <img class="mob-hide" src="./resources/images/course-business.jpg">
+          <h2>Business</h2>
+          <h3 class="allcaps mob-hide">Courses</h3>
+          <p class="tags mob-hide">Product Development, Business Development, Startup</p>
+        </div>
+        <div class="course-container">
+          <img class="mob-hide" src="./resources/images/course-marketing.jpg">
+          <h2>Marketing</h2>
+          <h3 class="allcaps mob-hide">Courses</h3>
+          <p class="tags mob-hide">Analytics, Content Marketing, Mobile Marketing</p>
+        </div>
+      </div>
     </div>
 
-    <div class="grid-list greybb">
-    </div>
+    <div class="thesis-exhibit">
+      <h1>Thesis exhibit</h1>
+    <div class="two-column">
+      <div class="column-one">
+        <video src="./resources/videos/thesis.mp4" controls>Video not supported</video>
+        <h2 class="mob-hide">Reimagine urban</h2>
+        <p class="mob-hide">&quotCurabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lefctus, nec consequat neque. Sed non acumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.&quot</p>
+      </div>
 
-    <div class="two-column thesis">
+      <div class="column-two mob-hide">
+        <div class="event-container">
+          <img src="./resources/images/thesis-fisma.jpg">
+          <div class="event-details">
+            <h2>Fisma: Design and Prototype</h2>
+            <h3>Designer showcase of new prototype product</h3>
+          </div>
+        </div>
+        <div class="event-container">
+          <img src="./resources/images/thesis-now-and-then.jpg">
+          <div class="event-details">
+            <h2>Now and then</h2>
+            <h3>Research study about New York</h3>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
 
     <footer>
+      <div class="copyright-info">&copy Copyright 2016 Colmar Academy. All rights reserved.</div>
+      <div>
+        <span class="terms mob-hide">Terms</span>
+        <span class="privacy mob-hide">Privacy</span>
+      </div>
     </footer>
 
   </body>
