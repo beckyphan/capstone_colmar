@@ -83,6 +83,7 @@ li:hover {
 
 .event-details {
   display: block;
+  padding-right: 1rem;
 }
 
 .event-container img {
@@ -319,7 +320,6 @@ h2 {
       display: block;
     }
 
-
   }
 
 /* THESIS EXHIBIT */
@@ -363,11 +363,6 @@ footer div {
   justify-content: space-between;
 }
 
-.terms,
 .privacy {
-  margin: auto 1rem;
-}
-
-.privacy {
-  margin-right: 1rem;
+  margin: auto 2.5rem;
 }
