@@ -270,7 +270,7 @@ h2 {
 }
 
 .grid .course-container:hover {
-    background-color: grey;
+    background-color: silver;
     transition: background-color 400ms ease-out;
 }
 
@@ -279,6 +279,15 @@ h2 {
 .start-learning p {
   padding: 0 1rem;
   margin: 0.5rem 0;
+}
+
+.grid .read-more {
+  color: grey;
+}
+
+.grid .read-more:hover {
+  color: blue;
+  transition: color 1s linear;
 }
 
   @media only screen and (max-width: 560px) {
@@ -309,6 +318,7 @@ h2 {
     .grid {
       display: block;
     }
+
 
   }
 
@@ -355,9 +365,9 @@ footer div {
 
 .terms,
 .privacy {
-  margin: auto 0.5rem;
+  margin: auto 1rem;
 }
 
-  @media only screen and (max-width: 560px) {
-
-  }
+.privacy {
+  margin-right: 1rem;
+}
