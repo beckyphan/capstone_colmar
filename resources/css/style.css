@@ -59,12 +59,12 @@ li:hover {
 
 .column-one img {
   margin: 2rem 1.5rem;
-  width:calc(100% - 1.5rem);
+  width:calc(100% - 3rem);
 }
 
 .column-one video {
   margin: 0 1.5rem 2rem 1.5rem;
-  width:calc(100% - 1.5rem);
+  width:calc(100% - 3rem);
 }
 
 .column-two {
