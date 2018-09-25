@@ -33,6 +33,11 @@ li {
   width: 50%;
 }
 
+.colmar,
+.academy {
+  letter-spacing: 0.12rem;
+}
+
 .mob-only {
   display: none;
 }
@@ -108,6 +113,12 @@ li {
 
 .learn-something {
   background-color: darkgrey;
+}
+
+.learn-something .column-two {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
 }
 
 .start-button {
